@@ -1,0 +1,120 @@
+@import "../../global.scss";
+
+.portfolio{
+    display:flex;
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        flex:0.3;
+        background-color: $mainColor;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        h1{
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px 0;
+            height: 45px;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(247, 245, 245);
+            display: list-item;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            
+            h2{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                font-size: 18px;
+                font-weight: 400;
+                color: $mainColor;
+                white-space: normal
+            }
+        }
+    }
+    .center{
+        flex:0.4;
+        background-color: $mainColor;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        h1{
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px 0;
+            height: 45px;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(221, 208, 236);
+            display: list-item;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            
+
+            h2{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 10px;
+                font-size: 18px;
+                font-weight: 400;
+                color: $mainColor;
+                white-space: normal
+            }
+        }
+    }
+    
+    .right{
+        flex:0.3;
+        background-color: $mainColor;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+        h1{
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px 0;
+            height: 45px;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: list-item;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            
+            h2{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+                font-weight: 400;
+                color: $mainColor;
+                white-space: normal
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Beeseey/portfolio/static/css/main.4942a7be.chunk.css",
+    "main.js": "/Beeseey/portfolio/static/js/main.b0e65219.chunk.js",
+    "main.js.map": "/Beeseey/portfolio/static/js/main.b0e65219.chunk.js.map",
+    "runtime-main.js": "/Beeseey/portfolio/static/js/runtime-main.b6a1d54b.js",
+    "runtime-main.js.map": "/Beeseey/portfolio/static/js/runtime-main.b6a1d54b.js.map",
+    "static/js/2.ef4c059f.chunk.js": "/Beeseey/portfolio/static/js/2.ef4c059f.chunk.js",
+    "static/js/2.ef4c059f.chunk.js.map": "/Beeseey/portfolio/static/js/2.ef4c059f.chunk.js.map",
+    "index.html": "/Beeseey/portfolio/index.html",
+    "static/css/main.4942a7be.chunk.css.map": "/Beeseey/portfolio/static/css/main.4942a7be.chunk.css.map",
+    "static/js/2.ef4c059f.chunk.js.LICENSE.txt": "/Beeseey/portfolio/static/js/2.ef4c059f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6a1d54b.js",
+    "static/js/2.ef4c059f.chunk.js",
+    "static/css/main.4942a7be.chunk.css",
+    "static/js/main.b0e65219.chunk.js"
+  ]
+}
